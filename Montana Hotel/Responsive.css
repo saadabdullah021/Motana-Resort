@@ -1,0 +1,370 @@
+    /*Responsive */
+    /*MOBILE DEVICES */
+    
+    @media (min-width:320px) and (max-width:767px) {
+        /* START HOME AREA */
+        .home-section {
+            background-image: linear-gradient( 20deg, rgba(0, 0, 0, 0.2), rgba(255, 12, 0, 0.2)), url(Asset/background1.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 200px;
+        }
+        .home-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .home-title h1 {
+            color: white;
+            font-size: large;
+            text-align: center;
+        }
+        .home-title h3 {
+            color: white;
+            text-align: center;
+            font-size: xx-small;
+        }
+        /*Side Nav */
+        .sidenav {
+            height: 210px;
+            width: 0px;
+            position: absolute;
+            z-index: 1;
+            top: -10px;
+            left: -100px;
+            background-color: rgba(0, 0, 0, 0.6);
+            transition: 0.6s;
+        }
+        .nav-logo {
+            display: none;
+        }
+        .sidenav a {
+            text-decoration: none;
+            font-size: 10px;
+            color: #ffffff;
+            display: block;
+            position: relative;
+            left: 100px;
+            top: -50px;
+            transition: 0.3s;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0px;
+            font-size: 20px;
+            margin-left: 38px;
+        }
+        .sidenav .openbtn {
+            font-size: 20px;
+            cursor: pointer
+        }
+        /*END NAV AREA */
+        /*STRAT SOCIAL ICONS AREA */
+        .social-icons {
+            position: absolute;
+            top: 20%;
+            left: 79%;
+            overflow: hidden;
+        }
+        .social-icons ul {
+            list-style-type: none;
+        }
+        .social-icons ul li {
+            margin-top: -10px;
+            text-align: center;
+        }
+        .social-icons ul li a {
+            color: white;
+            width: 20px;
+            outline: none;
+            z-index: 9999;
+            height: 20px;
+            transition: .2s linear;
+            font-size: 10px;
+        }
+        .social-icons ul li a:hover {
+            justify-content: center;
+            text-decoration: none;
+            padding: 5px 0;
+            text-align: center;
+            color: white;
+            background-color: crimson;
+            border-radius: 50%;
+        }
+        /*END SOCIAL ICONS AREA */
+        /*END HOME AREA */
+        /*START ABOUT AREA */
+        .about-area {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-image: url("Asset/Layer\ 12\ copy@1X.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .about-title {
+            height: 50px;
+        }
+        .about-title h2 {
+            text-align: center;
+            padding: 15px;
+        }
+        .about-area .card .card-body .card-text {
+            line-height: 28px;
+        }
+        /*END ABOUT AREA */
+        /*START FOOD AREA */
+        .food-area .card .card-text {
+            text-align: justify;
+            line-height: 22px;
+            position: relative;
+            top: -50px;
+        }
+        /*END FOOD AREA */
+        /*START SERVICES AREA */
+        .services-area .services-title {
+            width: 100%;
+            height: 100px;
+            padding-bottom: 20px;
+        }
+        .services-area .services-title h2 {
+            text-align: center;
+            padding: 10px;
+        }
+        /* END SERVICES AREA */
+    }
+    /*TABLETS AND IPAD */
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        /* START HOME AREA */
+        .home-section {
+            background-image: linear-gradient( 20deg, rgba(0, 0, 0, 0.2), rgba(255, 12, 0, 0.2)), url(Asset/background1.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 400px;
+        }
+        .home-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .home-title h1 {
+            color: white;
+            text-align: center;
+            font-size: large;
+        }
+        .home-title h3 {
+            color: white;
+            text-align: center;
+            font-size: small;
+        }
+        /*START Side Nav AREA */
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            overflow-x: hidden;
+            transition: 0.6s;
+        }
+        .nav-logo {
+            width: 50%;
+            height: 20%;
+            display: block;
+            margin: 0 auto;
+        }
+        .sidenav a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #ffffff;
+            display: block;
+            position: relative;
+            transition: 0.3s;
+            top: 5%;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: -15px;
+            right: 25px;
+            font-size: 40px;
+            margin-left: 100px;
+        }
+        .sidenav .openbtn {
+            font-size: 40px;
+            cursor: pointer
+        }
+        /*END SIDE NAV AREA */
+        /*STRAT SOCIAL ICONS AREA */
+        .social-icons {
+            position: absolute;
+            top: 15%;
+            left: 87%;
+            overflow: hidden;
+        }
+        .social-icons ul {
+            list-style-type: none;
+        }
+        .social-icons ul li {
+            margin-top: 05px;
+            text-align: center;
+        }
+        /*END SOCIAL ICONS AREA */
+        /*END HOME AREA */
+        /* STRAT ABOUT AREA */
+        .about-area {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-image: url("Asset/Layer\ 12\ copy@1X.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .about-title {
+            height: 60px;
+        }
+        .about-area .card .card-body .card-title {
+            text-align: center;
+            font-size: medium;
+            font-weight: bold;
+        }
+        .about-area .card .card-body .card-text {
+            text-align: justify;
+            padding: 5px;
+            line-height: 20px;
+            font-size: small;
+        }
+        /*END ABOUT AREA */
+        /*STRAT FOOD AREA */
+        .food-area .card .food-title {
+            text-align: center;
+            position: relative;
+            top: -20px;
+        }
+        .food-area .card .card-text {
+            text-align: justify;
+            line-height: 16px;
+            position: relative;
+            font-size: small;
+            top: -58px;
+        }
+        /* END FOOD AREA */
+        /*START SERVICES AREA */
+        .services-area {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .services-area .services-title {
+            width: 100%;
+            height: 80px;
+        }
+        .services-area .services-title h2 {
+            text-align: center;
+            padding: 15px;
+        }
+        .services-area .card {
+            border: none;
+            width: 100%;
+            height: 430px;
+        }
+        .services-area .card .card-text {
+            text-align: justify;
+            font-size: smaller;
+            height: 160px;
+        }
+        .sp-btn {
+            position: relative;
+            top: -5px;
+        }
+        .sp-btn-1 {
+            position: relative;
+            top: -15px;
+        }
+        .services-area .card .card-title {
+            font-size: medium;
+        }
+        .services-area .card img {
+            width: 100%;
+            height: 100px;
+        }
+        /* END SERVICES AREA */
+    }
+    /*DESKTOP DEVICES */
+    
+    @media (min-width: 1024px) {
+        /* START HOME AREA */
+        .home-section {
+            background-image: linear-gradient( 20deg, rgba(0, 0, 0, 0.2), rgba(255, 12, 0, 0.2)), url(Asset/background1.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 656px;
+        }
+        .home-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .home-title h1 {
+            color: white;
+            text-align: center;
+        }
+        .home-title h3 {
+            color: white;
+            text-align: center;
+        }
+        /*Side Nav */
+        .sidenav a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #ffffff;
+            display: block;
+            position: relative;
+            transition: 0.3s;
+            top: 8%;
+        }
+        .nav-logo {
+            width: 50%;
+            height: 20%;
+            display: block;
+            margin: 0 auto;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: -10px;
+            right: 25px;
+            font-size: 40px;
+            margin-left: 100px;
+        }
+        .sidenav .openbtn {
+            font-size: 40px;
+            cursor: pointer
+        }
+        /*END NAV AREA */
+        /*END HOME AREA */
+        /*START ABOUT AREA */
+        .about-area .card .card-body .card-text {
+            text-align: justify;
+        }
+        /* END ABOUT AREA */
+        /*STRAT FOOD AREA */
+        .food-area .card .food-title {
+            text-align: center;
+            position: relative;
+            top: -10px;
+        }
+        .food-area .card .card-text {
+            text-align: justify;
+            line-height: 20px;
+            position: relative;
+            top: -50px;
+        }
+        /* END FOOD AREA */
+    }
